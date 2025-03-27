@@ -24,7 +24,7 @@ import netlify from '@astrojs/netlify';
 export default defineConfig({
   output: "server",
   adapter: netlify({
-    // edgeMiddleware: true, // This allows you to use middleware to implement authentication, redirects, or similar things, while still using static HTML output.
+    edgeMiddleware: true, // This allows you to use middleware to implement authentication, redirects, or similar things, while still using static HTML output.
   }),
   site: "https://ilujack.vercel.app/",
   base: "/",
