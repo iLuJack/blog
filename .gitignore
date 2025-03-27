@@ -1,6 +1,9 @@
 # favicon
 favicon_io/
 
+# post-example
+post-example/
+
 # build output
 dist/
 
