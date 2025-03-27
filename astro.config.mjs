@@ -18,16 +18,11 @@ import { GithubCardComponent } from "./src/plugins/rehype-component-github-card.
 import { parseDirectiveNode } from "./src/plugins/remark-directive-rehype.js";
 import { remarkExcerpt } from "./src/plugins/remark-excerpt.js";
 import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
-import netlify from '@astrojs/netlify';
 
 // https://astro.build/config
 export default defineConfig({
-  output: "server",
-  adapter: netlify({
-    edgeMiddleware: true, // This allows you to use middleware to implement authentication, redirects, or similar things, while still using static HTML output.
-  }),
-  site: "https://ilujack.vercel.app/",
-  base: "/",
+  site: 'https://iLuJack.github.io',
+  base: '/',
   trailingSlash: "always",
   integrations: [
     tailwind(
