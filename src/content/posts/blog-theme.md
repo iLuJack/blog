@@ -1,5 +1,5 @@
 ---
-title: My Blog Theme 
+title: My Blog Theme ~
 published: 2025-04-02
 description: This blog is built from the template of saicaca/fuwari
 image: ./post-image/Bocchi-the-Rock-header.jpeg
